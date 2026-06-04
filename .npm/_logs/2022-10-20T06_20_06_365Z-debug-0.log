@@ -1,0 +1,315 @@
+0 verbose cli [
+0 verbose cli   '/opt/conda/bin/node',
+0 verbose cli   '/opt/conda/bin/npm',
+0 verbose cli   'pack',
+0 verbose cli   '@jupyterlab/git'
+0 verbose cli ]
+1 info using npm@8.5.5
+2 info using node@v17.9.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:/opt/conda/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 2ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/tmp/tmpwlbegc9q/.npmrc Completed in 1ms
+10 timing config:load:project Completed in 16ms
+11 timing config:load:file:/home/jovyan/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/opt/conda/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:credentials Completed in 2ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 27ms
+19 timing npm:load:configload Completed in 27ms
+20 timing npm:load:setTitle Completed in 0ms
+21 timing config:load:flatten Completed in 4ms
+22 timing npm:load:display Completed in 5ms
+23 verbose logfile /home/jovyan/.npm/_logs/2022-10-20T06_20_06_365Z-debug-0.log
+24 timing npm:load:logFile Completed in 7ms
+25 timing npm:load:timers Completed in 0ms
+26 timing npm:load:configScope Completed in 0ms
+27 timing npm:load Completed in 41ms
+28 http fetch GET 200 https://registry.npmjs.org/npm 111ms (cache miss)
+29 http fetch GET 200 https://registry.npmjs.org/@jupyterlab%2fgit 292ms (cache miss)
+30 http fetch GET 200 https://registry.npmjs.org/@jupyterlab%2fgit 12ms (cache hit)
+31 silly tarball no local data for https://registry.npmjs.org/@jupyterlab/git/-/git-0.39.3.tgz. Extracting by manifest.
+32 http fetch GET 200 https://registry.npmjs.org/@jupyterlab/git/-/git-0.39.3.tgz 116ms (cache miss)
+33 notice
+34 notice 📦  @jupyterlab/git@0.39.3
+35 notice === Tarball Contents ===
+36 notice 1.5kB   LICENSE                                   
+36 notice 23.6kB  README.md                                 
+36 notice 138B    lib/cloneCommand.d.ts                     
+36 notice 3.1kB   lib/cloneCommand.js                       
+36 notice 5.6kB   lib/cloneCommand.js.map                   
+36 notice 2.7kB   lib/commandsAndMenu.d.ts                  
+36 notice 51.9kB  lib/commandsAndMenu.js                    
+36 notice 90.0kB  lib/commandsAndMenu.js.map                
+36 notice 671B    lib/components/ActionButton.d.ts          
+36 notice 592B    lib/components/ActionButton.js            
+36 notice 1.8kB   lib/components/ActionButton.js.map        
+36 notice 1.7kB   lib/components/Alert.d.ts                 
+36 notice 3.5kB   lib/components/Alert.js                   
+36 notice 7.1kB   lib/components/Alert.js.map               
+36 notice 3.1kB   lib/components/BranchMenu.d.ts            
+36 notice 11.2kB  lib/components/BranchMenu.js              
+36 notice 20.6kB  lib/components/BranchMenu.js.map          
+36 notice 3.1kB   lib/components/CommitBox.d.ts             
+36 notice 7.4kB   lib/components/CommitBox.js               
+36 notice 16.1kB  lib/components/CommitBox.js.map           
+36 notice 1.6kB   lib/components/CommitComparisonBox.d.ts   
+36 notice 4.1kB   lib/components/CommitComparisonBox.js     
+36 notice 9.3kB   lib/components/CommitComparisonBox.js.map 
+36 notice 1.4kB   lib/components/CommitDiff.d.ts            
+36 notice 3.4kB   lib/components/CommitDiff.js              
+36 notice 7.7kB   lib/components/CommitDiff.js.map          
+36 notice 1.2kB   lib/components/CommitMessage.d.ts         
+36 notice 2.8kB   lib/components/CommitMessage.js           
+36 notice 6.0kB   lib/components/CommitMessage.js.map       
+36 notice 4.4kB   lib/components/diff/mergeview.d.ts        
+36 notice 49.1kB  lib/components/diff/mergeview.js          
+36 notice 106.5kB lib/components/diff/mergeview.js.map      
+36 notice 1.9kB   lib/components/diff/model.d.ts            
+36 notice 2.6kB   lib/components/diff/model.js              
+36 notice 5.2kB   lib/components/diff/model.js.map          
+36 notice 3.5kB   lib/components/diff/NotebookDiff.d.ts     
+36 notice 13.4kB  lib/components/diff/NotebookDiff.js       
+36 notice 24.1kB  lib/components/diff/NotebookDiff.js.map   
+36 notice 2.5kB   lib/components/diff/PlainTextDiff.d.ts    
+36 notice 7.3kB   lib/components/diff/PlainTextDiff.js      
+36 notice 13.3kB  lib/components/diff/PlainTextDiff.js.map  
+36 notice 1.1kB   lib/components/Feedback.d.ts              
+36 notice 2.8kB   lib/components/Feedback.js                
+36 notice 6.4kB   lib/components/Feedback.js.map            
+36 notice 2.0kB   lib/components/FileItem.d.ts              
+36 notice 5.2kB   lib/components/FileItem.js                
+36 notice 11.9kB  lib/components/FileItem.js.map            
+36 notice 7.6kB   lib/components/FileList.d.ts              
+36 notice 36.7kB  lib/components/FileList.js                
+36 notice 67.8kB  lib/components/FileList.js.map            
+36 notice 371B    lib/components/FilePath.d.ts              
+36 notice 901B    lib/components/FilePath.js                
+36 notice 2.1kB   lib/components/FilePath.js.map            
+36 notice 1.2kB   lib/components/GitCommitGraph.d.ts        
+36 notice 4.6kB   lib/components/GitCommitGraph.js          
+36 notice 10.4kB  lib/components/GitCommitGraph.js.map      
+36 notice 5.7kB   lib/components/GitPanel.d.ts              
+36 notice 22.3kB  lib/components/GitPanel.js                
+36 notice 43.3kB  lib/components/GitPanel.js.map            
+36 notice 849B    lib/components/GitStage.d.ts              
+36 notice 1.7kB   lib/components/GitStage.js                
+36 notice 4.2kB   lib/components/GitStage.js.map            
+36 notice 1.6kB   lib/components/HistorySideBar.d.ts        
+36 notice 6.2kB   lib/components/HistorySideBar.js          
+36 notice 13.1kB  lib/components/HistorySideBar.js.map      
+36 notice 1.1kB   lib/components/ManageRemoteDialogue.d.ts  
+36 notice 6.0kB   lib/components/ManageRemoteDialogue.js    
+36 notice 11.8kB  lib/components/ManageRemoteDialogue.js.map
+36 notice 799B    lib/components/MergeBranchDialog.d.ts     
+36 notice 4.5kB   lib/components/MergeBranchDialog.js       
+36 notice 9.3kB   lib/components/MergeBranchDialog.js.map   
+36 notice 2.9kB   lib/components/NewBranchDialog.d.ts       
+36 notice 10.9kB  lib/components/NewBranchDialog.js         
+36 notice 20.5kB  lib/components/NewBranchDialog.js.map     
+36 notice 3.1kB   lib/components/PastCommitNode.d.ts        
+36 notice 5.1kB   lib/components/PastCommitNode.js          
+36 notice 11.9kB  lib/components/PastCommitNode.js.map      
+36 notice 3.2kB   lib/components/ResetRevertDialog.d.ts     
+36 notice 7.6kB   lib/components/ResetRevertDialog.js       
+36 notice 14.6kB  lib/components/ResetRevertDialog.js.map   
+36 notice 543B    lib/components/SelectAllButton.d.ts       
+36 notice 441B    lib/components/SelectAllButton.js         
+36 notice 1.4kB   lib/components/SelectAllButton.js.map     
+36 notice 3.2kB   lib/components/SinglePastCommitInfo.d.ts  
+36 notice 4.6kB   lib/components/SinglePastCommitInfo.js    
+36 notice 10.1kB  lib/components/SinglePastCommitInfo.js.map
+36 notice 1.3kB   lib/components/StatusWidget.d.ts          
+36 notice 7.1kB   lib/components/StatusWidget.js            
+36 notice 11.8kB  lib/components/StatusWidget.js.map        
+36 notice 952B    lib/components/SuspendModal.d.ts          
+36 notice 1.2kB   lib/components/SuspendModal.js            
+36 notice 2.4kB   lib/components/SuspendModal.js.map        
+36 notice 2.0kB   lib/components/TagMenu.d.ts               
+36 notice 7.1kB   lib/components/TagMenu.js                 
+36 notice 13.5kB  lib/components/TagMenu.js.map             
+36 notice 3.1kB   lib/components/Toolbar.d.ts               
+36 notice 9.9kB   lib/components/Toolbar.js                 
+36 notice 19.0kB  lib/components/Toolbar.js.map             
+36 notice 488B    lib/components/WarningBox.d.ts            
+36 notice 888B    lib/components/WarningBox.js              
+36 notice 2.1kB   lib/components/WarningBox.js.map          
+36 notice 1.7kB   lib/generateGraphData.d.ts                
+36 notice 3.5kB   lib/generateGraphData.js                  
+36 notice 7.8kB   lib/generateGraphData.js.map              
+36 notice 754B    lib/git.d.ts                              
+36 notice 2.6kB   lib/git.js                                
+36 notice 3.8kB   lib/git.js.map                            
+36 notice 656B    lib/index.d.ts                            
+36 notice 7.1kB   lib/index.js                              
+36 notice 12.9kB  lib/index.js.map                          
+36 notice 607B    lib/logger.d.ts                           
+36 notice 647B    lib/logger.js                             
+36 notice 1.4kB   lib/logger.js.map                         
+36 notice 26.2kB  lib/model.d.ts                            
+36 notice 55.0kB  lib/model.js                              
+36 notice 89.5kB  lib/model.js.map                          
+36 notice 477B    lib/server.d.ts                           
+36 notice 1.7kB   lib/server.js                             
+36 notice 2.8kB   lib/server.js.map                         
+36 notice 216B    lib/style/ActionButtonStyle.d.ts          
+36 notice 993B    lib/style/ActionButtonStyle.js            
+36 notice 2.0kB   lib/style/ActionButtonStyle.js.map        
+36 notice 461B    lib/style/BranchMenu.d.ts                 
+36 notice 2.9kB   lib/style/BranchMenu.js                   
+36 notice 5.2kB   lib/style/BranchMenu.js.map               
+36 notice 723B    lib/style/CommitBox.d.ts                  
+36 notice 3.5kB   lib/style/CommitBox.js                    
+36 notice 6.1kB   lib/style/CommitBox.js.map                
+36 notice 111B    lib/style/CommitComparisonBox.d.ts        
+36 notice 440B    lib/style/CommitComparisonBox.js          
+36 notice 919B    lib/style/CommitComparisonBox.js.map      
+36 notice 49B     lib/style/common.d.ts                     
+36 notice 648B    lib/style/common.js                       
+36 notice 1.2kB   lib/style/common.js.map                   
+36 notice 679B    lib/style/FileItemStyle.d.ts              
+36 notice 2.5kB   lib/style/FileItemStyle.js                
+36 notice 4.7kB   lib/style/FileItemStyle.js.map            
+36 notice 51B     lib/style/FileListStyle.d.ts              
+36 notice 217B    lib/style/FileListStyle.js                
+36 notice 522B    lib/style/FileListStyle.js.map            
+36 notice 136B    lib/style/FilePathStyle.d.ts              
+36 notice 531B    lib/style/FilePathStyle.js                
+36 notice 1.1kB   lib/style/FilePathStyle.js.map            
+36 notice 315B    lib/style/GitPanel.d.ts                   
+36 notice 1.8kB   lib/style/GitPanel.js                     
+36 notice 3.2kB   lib/style/GitPanel.js.map                 
+36 notice 263B    lib/style/GitStageStyle.d.ts              
+36 notice 1.6kB   lib/style/GitStageStyle.js                
+36 notice 3.3kB   lib/style/GitStageStyle.js.map            
+36 notice 45B     lib/style/GitWidgetStyle.d.ts             
+36 notice 314B    lib/style/GitWidgetStyle.js               
+36 notice 661B    lib/style/GitWidgetStyle.js.map           
+36 notice 212B    lib/style/HistorySideBarStyle.d.ts        
+36 notice 779B    lib/style/HistorySideBarStyle.js          
+36 notice 1.6kB   lib/style/HistorySideBarStyle.js.map      
+36 notice 962B    lib/style/icons.d.ts                      
+36 notice 3.3kB   lib/style/icons.js                        
+36 notice 6.3kB   lib/style/icons.js.map                    
+36 notice 262B    lib/style/ManageRemoteDialog.d.ts         
+36 notice 893B    lib/style/ManageRemoteDialog.js           
+36 notice 1.7kB   lib/style/ManageRemoteDialog.js.map       
+36 notice 1.1kB   lib/style/NewBranchDialog.d.ts            
+36 notice 6.0kB   lib/style/NewBranchDialog.js              
+36 notice 10.5kB  lib/style/NewBranchDialog.js.map          
+36 notice 689B    lib/style/PastCommitNode.d.ts             
+36 notice 2.1kB   lib/style/PastCommitNode.js               
+36 notice 3.9kB   lib/style/PastCommitNode.js.map           
+36 notice 575B    lib/style/ResetRevertDialog.d.ts          
+36 notice 4.5kB   lib/style/ResetRevertDialog.js            
+36 notice 7.6kB   lib/style/ResetRevertDialog.js.map        
+36 notice 530B    lib/style/SinglePastCommitInfo.d.ts       
+36 notice 2.1kB   lib/style/SinglePastCommitInfo.js         
+36 notice 3.9kB   lib/style/SinglePastCommitInfo.js.map     
+36 notice 194B    lib/style/StatusWidget.d.ts               
+36 notice 1.0kB   lib/style/StatusWidget.js                 
+36 notice 1.9kB   lib/style/StatusWidget.js.map             
+36 notice 54B     lib/style/SuspendModal.d.ts               
+36 notice 256B    lib/style/SuspendModal.js                 
+36 notice 578B    lib/style/SuspendModal.js.map             
+36 notice 624B    lib/style/Toolbar.d.ts                    
+36 notice 2.6kB   lib/style/Toolbar.js                      
+36 notice 4.7kB   lib/style/Toolbar.js.map                  
+36 notice 308B    lib/svgPathData.d.ts                      
+36 notice 575B    lib/svgPathData.js                        
+36 notice 1.5kB   lib/svgPathData.js.map                    
+36 notice 1.7kB   lib/taskhandler.d.ts                      
+36 notice 3.4kB   lib/taskhandler.js                        
+36 notice 5.5kB   lib/taskhandler.js.map                    
+36 notice 34.6kB  lib/tokens.d.ts                           
+36 notice 4.0kB   lib/tokens.js                             
+36 notice 36.2kB  lib/tokens.js.map                         
+36 notice 901B    lib/utils.d.ts                            
+36 notice 3.2kB   lib/utils.js                              
+36 notice 5.2kB   lib/utils.js.map                          
+36 notice 41B     lib/version.d.ts                          
+36 notice 95B     lib/version.js                            
+36 notice 257B    lib/version.js.map                        
+36 notice 941B    lib/widgets/AdvancedPushForm.d.ts         
+36 notice 3.6kB   lib/widgets/AdvancedPushForm.js           
+36 notice 7.2kB   lib/widgets/AdvancedPushForm.js.map       
+36 notice 427B    lib/widgets/AuthorBox.d.ts                
+36 notice 1.0kB   lib/widgets/AuthorBox.js                  
+36 notice 2.3kB   lib/widgets/AuthorBox.js.map              
+36 notice 637B    lib/widgets/CredentialsBox.d.ts           
+36 notice 2.2kB   lib/widgets/CredentialsBox.js             
+36 notice 4.7kB   lib/widgets/CredentialsBox.js.map         
+36 notice 376B    lib/widgets/discardAllChanges.d.ts        
+36 notice 1.3kB   lib/widgets/discardAllChanges.js          
+36 notice 2.5kB   lib/widgets/discardAllChanges.js.map      
+36 notice 271B    lib/widgets/gitClone.d.ts                 
+36 notice 790B    lib/widgets/gitClone.js                   
+36 notice 2.0kB   lib/widgets/gitClone.js.map               
+36 notice 472B    lib/widgets/GitCloneForm.d.ts             
+36 notice 1.1kB   lib/widgets/GitCloneForm.js               
+36 notice 2.2kB   lib/widgets/GitCloneForm.js.map           
+36 notice 472B    lib/widgets/GitResetToRemoteForm.d.ts     
+36 notice 1.2kB   lib/widgets/GitResetToRemoteForm.js       
+36 notice 2.5kB   lib/widgets/GitResetToRemoteForm.js.map   
+36 notice 1.3kB   lib/widgets/GitWidget.d.ts                
+36 notice 2.4kB   lib/widgets/GitWidget.js                  
+36 notice 5.5kB   lib/widgets/GitWidget.js.map              
+36 notice 5.9kB   package.json                              
+36 notice 6.1kB   schema/plugin.json                        
+36 notice 453B    style/advanced-push-form.css              
+36 notice 491B    style/base.css                            
+36 notice 376B    style/credentials-box.css                 
+36 notice 3.7kB   style/diff-common.css                     
+36 notice 6.0kB   style/diff-nb.css                         
+36 notice 2.8kB   style/diff-text.css                       
+36 notice 260B    style/icons/add.svg                       
+36 notice 1.4kB   style/icons/branch.svg                    
+36 notice 519B    style/icons/clock.svg                     
+36 notice 1.3kB   style/icons/clone.svg                     
+36 notice 420B    style/icons/compare-with-selected.svg     
+36 notice 307B    style/icons/deletions.svg                 
+36 notice 258B    style/icons/desktop.svg                   
+36 notice 517B    style/icons/diff.svg                      
+36 notice 603B    style/icons/discard.svg                   
+36 notice 650B    style/icons/git.svg                       
+36 notice 326B    style/icons/insertions.svg                
+36 notice 1.0kB   style/icons/merge.svg                     
+36 notice 518B    style/icons/open-file.svg                 
+36 notice 173B    style/icons/plus.svg                      
+36 notice 661B    style/icons/pull.svg                      
+36 notice 642B    style/icons/push.svg                      
+36 notice 240B    style/icons/remove.svg                    
+36 notice 352B    style/icons/rewind.svg                    
+36 notice 389B    style/icons/select-for-compare.svg        
+36 notice 809B    style/icons/tag.svg                       
+36 notice 247B    style/icons/trash.svg                     
+36 notice 650B    style/icons/vertical-more.svg             
+36 notice 488B    style/index.css                           
+36 notice 21B     style/index.js                            
+36 notice 64B     style/status-widget.css                   
+36 notice 603B    style/variables.css                       
+37 notice === Tarball Details ===
+38 notice name:          @jupyterlab/git                         
+38 notice version:       0.39.3                                  
+38 notice filename:      @jupyterlab/git-0.39.3.tgz              
+38 notice package size:  323.3 kB                                
+38 notice unpacked size: 1.5 MB                                  
+38 notice shasum:        0317c655b6bfb2a34de0783b9e85132d0949a7a0
+38 notice integrity:     sha512-sbtP+zEBDGFjY[...]Ewa9X4UlwDvrQ==
+38 notice total files:   255                                     
+39 notice
+40 timing command:pack Completed in 510ms
+41 notice
+41 notice New minor version of npm available! 8.5.5 -> 8.19.2
+41 notice Changelog: <https://github.com/npm/cli/releases/tag/v8.19.2>
+41 notice Run `npm install -g npm@8.19.2` to update!
+41 notice
+42 verbose exit 0
+43 timing npm Completed in 887ms
+44 info ok

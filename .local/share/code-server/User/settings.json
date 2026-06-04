@@ -1,0 +1,8 @@
+{
+  "files.exclude": {
+    "**/.*/": true
+  },
+  "telemetry.enableTelemetry": false,
+  "python.defaultInterpreterPath": "/opt/conda/bin/python",
+  "security.workspace.trust.enabled": false
+}

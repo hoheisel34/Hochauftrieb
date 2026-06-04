@@ -1,0 +1,5 @@
+[2026-05-04 13:00:05.721] [remoteagent] [info] Installing extension: zhwu95.riscv
+[2026-05-04 13:00:08.062] [remoteagent] [info] Extracted extension to /home/jovyan/.local/share/code-server/extensions/.04fcaca5-a5a7-4ebd-9e3e-b2622f0d53ca: zhwu95.riscv
+[2026-05-04 13:00:08.074] [remoteagent] [info] Renamed to /home/jovyan/.local/share/code-server/extensions/zhwu95.riscv-0.0.8
+[2026-05-04 13:00:08.077] [remoteagent] [info] Extracting completed. zhwu95.riscv
+[2026-05-04 13:00:08.077] [remoteagent] [info] Extension installed successfully: zhwu95.riscv

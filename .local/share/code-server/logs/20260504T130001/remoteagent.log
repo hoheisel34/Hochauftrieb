@@ -1,0 +1,5 @@
+[2026-05-04 13:00:01.931] [remoteagent] [info] Installing extension: hm.riscv-venus
+[2026-05-04 13:00:04.550] [remoteagent] [info] Extracted extension to /home/jovyan/.local/share/code-server/extensions/.43c7948d-eebd-481d-9941-417cd929e8b3: hm.riscv-venus
+[2026-05-04 13:00:04.562] [remoteagent] [info] Renamed to /home/jovyan/.local/share/code-server/extensions/hm.riscv-venus-1.7.0
+[2026-05-04 13:00:04.571] [remoteagent] [info] Extracting completed. hm.riscv-venus
+[2026-05-04 13:00:04.572] [remoteagent] [info] Extension installed successfully: hm.riscv-venus
